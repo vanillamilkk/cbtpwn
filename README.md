@@ -19,7 +19,7 @@ A script to download question / exam from Bimasoft's Aplikasi Simulasi Mandiri
 
 ## Installation
 
-CBTPWN requires bash to run (Exist in almost any Linux distribution)
+CBTPWN requires bash and curl to run (Exist in almost any Linux distribution)
 
 Clone the repo, and it's just work!
 
