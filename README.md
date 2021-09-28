@@ -1,7 +1,7 @@
 # CBTPWN
 ## _Aplikasi Simulasi Mandiri Downloader_
 
-![N|Solid](https://img.shields.io/badge/Made%20with-bash-green) ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master) [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+![N|Solid](https://img.shields.io/badge/Made%20with-bash-green) ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
 
