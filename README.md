@@ -5,7 +5,7 @@
 
 
 
-A script to download question / exam from Aplikasi Simulasi Mandiri made by Bimasoft
+A script to download question / exam from Bimasoft's Aplikasi Simulasi Mandiri
 
 
 ## Features
