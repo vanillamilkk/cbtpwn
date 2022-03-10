@@ -100,14 +100,15 @@ for (( i=0; i<${jumlahpelajaran}; i++ ));
       # Also using sed to escape spaces for url
       url="https://$@/archives/soalujian---$(echo -ne ${pelajaran[$i]} | sed -e 's/ /%20/g')"
       # Set tag variable to remove unnecessary html out of the exam page
-      tag='<table style="border-collapse:collapse" border="0">'
+      tagsta='<div id="soal-body">'
+      tagend='<div id="soal-foot">'
       # Check if file already exist
       if [[ -f "./$@/${pelajaran[$i]}.html" ]]
         then
           echo -ne " FILE EXIST!"
         else
           # Download the exam page and cut only the question and answer
-          soal=$(curl -s "$url" | sed -n "/$tag/,/<\/table>/p")
+          soal=$(curl -s "$url" | sed -n "/$tagsta/,/$tagend/p")
           # Check if soal is empty, then write to file
           if [ -z "$soal" ]
             then
@@ -121,4 +122,4 @@ done
 
 # Thankyou message
 echo -e "\n\nAll files downloaded. Thank you!"
-exit 1
+exit 0
